@@ -18,6 +18,7 @@ body {
   width: 206px;
 }
 
+/* desktop nav */
 .nav-link {
   margin-left: 94px;
   text-decoration: none;
@@ -30,8 +31,10 @@ body {
 }
 .nav-link:hover {
   color: #fa4a0c;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
+
+/* mobile nav */
 
 .hamburger,
 .mobile-nav {
@@ -39,7 +42,7 @@ body {
 }
 
 .hero {
-  background: url(/assets/images/hero-background-desktop.jpg) center no-repeat;
+  background: url(assets/images/hero-background-desktop.jpg) center no-repeat;
   background-size: cover;
 
   height: 619px;
@@ -79,7 +82,7 @@ body {
   text-align: center;
   color: #fa4a0c;
   border: 1px solid #fa4a0c;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 .button-special {
   background-color: #fa4a0c;
